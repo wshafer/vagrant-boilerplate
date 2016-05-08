@@ -11,7 +11,7 @@ apt-get -y dist-upgrade;
 apt-get -y install unzip build-essential git php7.0-fpm php7.0-cli php7.0-dev \
 mysql-client-5.7 mysql-client-core-5.7 mysql-server-5.7 php7.0-mysql php-radius \
 php7.0-sqlite3 php7.0-intl php7.0-imap php7.0-gd php7.0-curl php-imagick php7.0-mcrypt \
-php-redis php-pear php-memcached memcached zip nginx;
+php-redis php-pear php-memcached redis-server redis-tools zip nginx;
 
 pecl -q install xdebug;
 
